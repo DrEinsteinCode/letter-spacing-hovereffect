@@ -1,0 +1,33 @@
+:root {
+    --bg: #343A42;
+    --text: #fff;
+}
+
+body {
+    background: var(--bg);
+}
+
+.nav a {
+    color: var(--text);
+    text-decoration: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+
+    text-align: center;
+
+    padding: 2rem;
+    transition: 0.7s ease-in-out;
+}
+
+.nav {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav a:hover {
+    letter-spacing: 1rem;
+}
